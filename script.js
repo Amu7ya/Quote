@@ -1,7 +1,8 @@
 let quotes = document.querySelector("select");
 let paraCategory = document.querySelector(".category");
 let paraAuthor = document.querySelector(".author");
-let paraQuote = document.querySelector(".quote");
+let paraQuote = document.querySelector(".finalquote");
+console.log(paraQuote.innerText);
 const url = "https://api.api-ninjas.com/v1/quotes?category=";
 const option = {
   method: "GET",
