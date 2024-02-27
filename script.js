@@ -6,7 +6,7 @@ console.log(paraQuote.innerText);
 const url = "https://api.api-ninjas.com/v1/quotes?category=";
 const option = {
   method: "GET",
-  headers: { "X-Api-Key": keyvalue },
+  headers: { "X-Api-Key": "dQMC4aTvyAwRVoUbOJGmtQ==Z9uVGyvGneZ7r7BI" },
 };
 const fetchData = async (url) => {
   const response = await fetch(url, option);
