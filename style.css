@@ -1,6 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.41);
+}
+
 h1 {
   color: red;
-  background-color: yellow;
+  background-color: rgb(245, 245, 41);
+  text-align: center;
+  font-size: 3em;
+}
+.quote select {
+  margin: 2%;
+  background-color: rgba(0, 0, 0, 0.227);
+  color: white;
+  font-size: 1.5em;
 }
 .quo1,
 .quo2,
@@ -10,4 +26,12 @@ h1 {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 2%;
+  color: white;
+  font-size: 1.7em;
+}
+
+.quo3 .finalquote {
+  flex: 1;
+  max-width: 100%;
 }
