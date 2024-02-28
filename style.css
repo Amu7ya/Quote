@@ -26,12 +26,18 @@ h1 {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 2%;
+  margin: 4% 1% 0 2%;
   color: white;
   font-size: 1.7em;
 }
 
 .quo3 .finalquote {
-  flex: 1;
   max-width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    background-color: rgb(70 187 7 / 79%);
+    color: yellow;
+  }
 }
